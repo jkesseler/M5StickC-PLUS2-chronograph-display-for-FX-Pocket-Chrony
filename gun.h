@@ -28,9 +28,9 @@ typedef struct gun {
 Name, Manufacturer, caliber in inches, caliber in mm, profile (speed range), shot string length
 */
 gun_t my_guns[] = {
-  {"2240",    "Crosman",  0.22,  5.5, PROFILE_CO2_PISTOL,   20},
-  {"Pulsar",  "Daystate", 0.177, 4.5, PROFILE_AIR_GUN_FAC,  10},
-  {"Leshiy2", "Ed Gun",   0.25,  6.35,PROFILE_AIR_GUN_FAC,  8},
-  {"Red Wolf","Daystate", 0.25,  6.35, PROFILE_AIR_GUN_FAC, 10}
+    { "300 S", "Feinwerkbau", 0.177, 5.5, PROFILE_AIR_PISTOL, 1 },
+    { "C10", "Feinwerkbau", 0.177, 5.5, PROFILE_AIR_PISTOL, 1 },
+    { "HW100", "Weihrauch", 0.177, 4.5, PROFILE_AIR_GUN_FAC, 1 },
+    { "Reign", "Walther", 0.22, 5.5, PROFILE_AIR_GUN_FAC, 10 }
 };
 /************************************************************************************/
