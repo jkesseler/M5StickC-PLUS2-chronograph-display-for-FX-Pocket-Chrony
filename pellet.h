@@ -20,10 +20,10 @@ typedef struct pellet {
 Name, Manufacturere, weight in grains, calibre in inches, weight in grams, calibre in mm
 */
 pellet_t my_pellets[] = {
-  {"Diabolo",         "JSB",  8.44,  0.177, 0.547, 4.5},
-  {"Field Tgt Trophy","H&N",  14.66, 0.22,  0.95,  5.5},
-  {"Diabolo Monster", "JSB",  13.43, 0.177, 0.87,  4.5},
-  {"King Hvy MkII",   "JSB",  33.95, 0.25,  2.2,   6.35},
-  {"Slug",            "NSA",  33.5,  0.25,  0,     0}
+    { "Meisterkugeln", "RWS", 8.2, 0.177, 0.53, 4.5 },
+    { "Sport", "H&N", 8.64, 0.177, 0.56, 4.5 },
+    { "Field Tgt Trophy", "H&N", 8.64, 0.177, 0.56, 4.5 },
+    { "Exact Jumbo", "JSB", 15.89, 0.22, 1.03, 5.5 },
+    { "Exact Heavy", "JSB", 18.13, 0.22, 1.175, 5.5 }
 };
 /************************************************************************************/
